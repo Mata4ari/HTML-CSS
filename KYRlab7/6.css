@@ -1,0 +1,109 @@
+div{
+  background-image: url(img/panda.jpg);
+  width: 100px;
+  height: 100px;
+}
+
+
+@keyframes Anime1{
+  100%{
+transform: translate(200px);
+  }
+}
+.div1{
+  animation:Anime1;
+  animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes Anime2{
+  
+  100%{
+transform: translate(500px) scale(0.5);
+  }
+}
+.div2{
+  animation:Anime2;
+  animation-duration: 5s;
+animation-timing-function:linear;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes Anime3{
+  0%{
+   transform: translate(-20vw);
+  }
+  100%{
+transform: translate(120vw);
+  }
+}
+.div3{
+  margin-left: -20vw;
+  animation:Anime3;
+  animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 0;
+animation-iteration-count: infinite;
+}
+@keyframes Anime4{
+  5%{
+   bottom:0;
+  }
+  100%{
+    bottom: -50px;
+  }
+}
+.div4{
+  position: relative;
+  animation:Anime4;
+  animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes Anime5{
+  0%{
+    left: 0;top: 0;
+  }
+  25%{
+    left:100px;top: 0;
+  }
+  50%{
+    left:100px;top: 100px;
+  }
+  75%{
+    left: 0;top: 100px;
+  }
+  100%{
+    left: 0;top: 0;
+  }
+}
+.div5{
+  position: relative;
+  animation:Anime5;
+  animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 0;
+animation-iteration-count: infinite;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  animation: anime1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes anime1{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 80%;
+  }
+}

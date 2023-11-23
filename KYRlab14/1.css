@@ -1,0 +1,32 @@
+.txt1 {
+  fill: red;
+  font-size: 36px;
+}
+
+#MyPath {
+  stroke: black;
+}
+.col-1 {
+  fill: #7cfff4;
+  transform:scale(0.5)
+}
+
+.col-2 {
+  transform: rotate(-50deg);
+  fill: #75dd67;
+}
+
+.col-3 {
+  transform: skewX(50deg);
+  fill: #7a3c86;
+}
+
+.col-4 {
+  transform: skewY(20deg);
+  fill: #d5f719;
+}
+
+.col-5 {
+  transform: rotate(-50deg);
+  fill: #491aa0;
+}

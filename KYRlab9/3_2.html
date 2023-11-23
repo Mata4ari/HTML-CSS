@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="3_2.css">
+</head>
+<body>
+  <div class="grid">
+    <div style="grid-area: x;font-size: 18px;"><header> W3C описывает модуль CSS Grid Layout как систему двумерного макета, оптимизированного для дизайна пользовательского интерфейса. Главная идея, лежащая в основе макета сетки, заключается в разделении веб-страницы на столбцы и строки. В образовавшиеся области сетки можно помещать элементы сетки, а управлять их размерами и расположением можно с помощью специальных свойств модуля.</header></div>
+    <div style="grid-area: y;"></div>
+    <div style="grid-area: z;"></div>
+    <div style="grid-area: x1;text-align: center;"><nav><a href="https://html5book.ru/css-grid/#grid-container">Grid верстка</a>
+      <a href="https://html5book.ru/css3-oformlenie-teksta/">Оформление текста CSS 3</a>
+      <a href="http://htmlbook.ru/html5">HTML 5</a></nav></div>
+    <div style="grid-area: y1;font-size: 25px;"><article>Каждый идентификатор сетки в значении grid-template-areas соответствует ячейке сетки. Как только все ячейки идентифицированы, браузер объединяет все смежные ячейки с одинаковыми именами в одну область, которая охватывает все их, при условии, что они описывают область прямоугольной формы. Если вы попытаетесь настроить более сложные области, весь шаблон будет недействительным и области сетки не будут определены.
+
+      Все строки должны содержать одинаковое количество столбцов. Если вы хотите определить только некоторые ячейки как часть области сетки, вы можете использовать одну или несколько . для заполнения этих безымянных ячеек. При определении областей сетки идентификаторы можно перечислять через единичный пробел, без разрыва строки. Или же выровнять с помощью пробелов/табуляции и перевода строки для большей наглядности.
+      
+      Области сетки полезны для определения семантических отношений между различными частями макета страницы, позволяя указать, какая часть страницы включает в себя верхний колонтитул, боковую панель, область содержимого и нижний колонтитул.
+      
+      После того, как вы создали области сетки, элементы сетки могут быть назначены непосредственно, чтобы занимать эти области, используя свойство grid-area.
+   </article>
+    </div>
+    <div style="grid-area: z1;font-size: 17px;"><aside>.grid-container {<br>
+      display: grid;<br>
+      grid-template-areas: "post-1 post-1 post-2"  <br>
+                           "post-1 post-1 post-3"  <br>
+                           "post-6 post-5 post-4"; <br>
+      grid-template-rows: repeat(3, 200px);<br>
+      grid-template-columns: repeat(3, 1fr);<br>
+    }<br>
+    .post-1 {<br>
+      grid-area: post-1;<br>
+    }<br>
+    .post-2 {           <br>
+      grid-area: post-2;<br>
+    }<br>
+    .post-3 {<br>
+      grid-area: post-3;<br>
+    }<br>
+    .post-4 {           <br>
+      grid-area: post-4;<br>
+    }<br>
+    .post-5 {<br>
+      grid-area: post-5;<br>
+    }<br>
+    .post-6 {           <br>
+      grid-area: post-6;
+    }
+  </aside>
+  </div>
+    <div style="grid-area: x2;font-size: 20px"><footer>Свойства grid и grid-template — это сокращенные обозначения, которые можно использовать для одновременной установки всех трех явных свойств сетки grid-template-columns, grid-template-rows и grid-template-areas. grid сбрасывает свойства, управляющие неявной сеткой, тогда как свойство grid-template оставляет их без изменений.</footer></div>
+    <div style="grid-area: y2;"></div>
+    <div style="grid-area: z2;"></div>
+  </div>
+</body>
+</html>

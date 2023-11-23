@@ -1,0 +1,50 @@
+ul.nav{
+  list-style-type: none;
+}
+.nav li{
+  float: left;
+}
+.nav a{
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background-color: yellow;
+  color: green;
+  border: 1px solid green;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
+}
+div{
+  display: inline-block;
+ }
+ div+div{
+   margin-left: 100px;
+ }
+ img{
+   width: 200px;
+   height: 200px;
+ }
+ .tigr:hover {
+   transform: scale(0.5);
+ }
+ .belka1:hover{
+   transform: rotate(45deg);
+ }
+ .belka2:hover{
+   transform: translate(50px);
+ }
+ .panda:hover{
+   transform: skew(-20deg);
+ }
+ h1{
+   font-size: 50px;
+   text-align: center;
+   color: blue;
+   animation: anime1;
+   animation-timing-function: linear;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   clear: both;
+ }

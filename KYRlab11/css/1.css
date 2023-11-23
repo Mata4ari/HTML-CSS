@@ -1,0 +1,204 @@
+.row1 {
+  z-index: 0;
+  background-image: url(../img/shapka.png);
+  height: 100px;
+  width: 1500px;
+  display: block;
+}
+.row1 .nav {
+  display: inline-block;
+  translate: 0 -35px;
+  margin-left: 700px;
+}
+.row1 .nav a {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 50px;
+  position: relative;
+  text-align: center;
+  vertical-align: baseline;
+  background-color: yellow;
+}
+.row1 .logo {
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 25px;
+}
+.row1 .logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.row2 {
+  z-index: 0;
+  width: 1480px;
+  height: 800px;
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 {
+  width: 60%;
+  height: 100%;
+  flex-flow: column;
+  display: flex;
+  justify-content: space-between;
+}
+.container1 .line1 {
+  width: 100%;
+  height: 10%;
+}
+.container1 .line2 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+.container1 .line3 {
+  width: 100%;
+  height: 10%;
+}
+.container1 .line4 {
+  width: 90%;
+  height: 25%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+.container1 .line4 div {
+  height: 100%;
+  width: 20%;
+}
+.container1 .line4 .img1 {
+  background-image: url(../img/1617465315_11-p-oboi-peizazhi-dlya-risovaniya-12.jpg);
+}
+.container1 .line4 .img2 {
+  background-image: url(../img/1617960148_40-p-krasivie-peizazhi-fentezi-41.jpg);
+}
+.container1 .line4 .img3 {
+  background-image: url(../img/kasnvlkn.jpg);
+}
+.container1 .line4 .img4 {
+  background-image: url(../img/nxdvlk\ .jpg);
+}
+.container1 p {
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  font-size: 15px;
+}
+.container1 h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.container2 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+}
+.container2 .line2_1 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  justify-content: space-around;
+  align-self: flex-start;
+}
+.container2 .line2_1 .inp1 {
+  color: blue;
+  font-size: 20px;
+}
+.container2 .line2_1 .inp1 input {
+  margin-left: 92px;
+}
+.container2 .line2_1 .inp2 {
+  color: blue;
+  font-size: 20px;
+}
+.container2 .line2_1 .inp2 input {
+  margin-left: 45px;
+}
+.container2 .line2_1 .inp3 {
+  color: blue;
+  font-size: 20px;
+}
+.container2 .line2_1 .inp5 input {
+  width: 100px;
+}
+.container2 .line2_2 {
+  width: 100%;
+  height: 5%;
+}
+.container2 .line2_2 h2 {
+  text-align: center;
+  vertical-align: baseline;
+  margin: 0;
+  font-size: 30px;
+  color: green;
+}
+.container2 .line2_3 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.container2 .line2_3 .l1 {
+  width: 90%;
+  height: 45%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.container2 .line2_3 .l1 .image {
+  height: 90%;
+  width: 30%;
+  background-image: url(../img/1597214538_3.jpg);
+}
+.container2 .line2_3 .l1 .text {
+  height: 90%;
+  width: 60%;
+}
+.container2 .line2_3 .l2 {
+  width: 90%;
+  height: 45%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.container2 .line2_3 .l2 .image1 {
+  height: 100%;
+  width: 30%;
+  background-image: url(../img/download.jpg);
+}
+.container2 .line2_3 .l2 .text1 {
+  height: 100%;
+  width: 60%;
+}
+
+.row3 {
+  z-index: 0;
+  width: 1490px;
+  height: 100px;
+}
+
+div {
+  display: inline-block;
+}

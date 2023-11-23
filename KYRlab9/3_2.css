@@ -1,0 +1,16 @@
+.grid{
+  display: grid;
+  grid-template-areas: "x x x" "x1 y1 z1" "x2 x2 x2";
+  width: 97vw;
+  height: 43vw;
+  grid-template-columns: 15% 60% 25%;
+  grid-template-rows: 10% 80% 10%;
+  grid-gap: 5px;
+}
+div div{
+  background-color: rgb(211, 208, 208);
+}
+a{
+  display: inline-block;
+  margin-top: 120px;
+}

@@ -1,0 +1,48 @@
+ul li{
+  list-style: none;
+  background-image: url(img/Маркер-списка.jpg);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: 0 4px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+body{
+  background-image: url(img/it_bstu.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment:fixed;
+  background-size: 100px;
+}
+h1{
+  text-align: center;
+}
+.h2_1{
+  text-align: center;
+  font-size: 55px;
+}
+td, th{
+  border: 2px solid black;
+  empty-cells: hide;
+}
+.div_1{
+  margin-top: 50px;
+}
+.img_1{
+  float: left;
+  margin-right: 100px;
+}
+.p_1{
+  font-size: 40px;
+  text-indent: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.img_2{
+  float: right;
+}
+.div_2{
+  margin-top: 0;
+  padding-top: 0;
+}
+

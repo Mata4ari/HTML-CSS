@@ -1,0 +1,41 @@
+div{
+  animation: Anime;
+  animation-duration: 5s;
+animation-timing-function:linear;
+animation-delay: 0;
+animation-iteration-count: infinite;
+  width: 500px;
+  height: 500px;
+}
+@keyframes Anime{
+  0%{
+    outline: 10px solid blue;
+    background-image: url(img/belka1.jpg);
+  }
+  25%{
+    outline: 10px solid green;
+    background-image: url(img/belka2.jpg);
+  }
+  50%{
+    outline: 10px solid blueviolet;
+    background-image: url(img/panda.jpg);
+  }
+  75%{
+    outline: 10px solid yellow;
+    background-image: url(img/tigr.jpg);
+  }
+  100%{
+    background-image: url(img/1617465315_11-p-oboi-peizazhi-dlya-risovaniya-12.jpg);
+    outline: 10px solid red;
+  }
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  animation: anime1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

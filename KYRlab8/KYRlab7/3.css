@@ -1,0 +1,43 @@
+div{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+input{
+  width: 100px;
+  height: 30px;
+}
+.a1:hover{
+  background-color: black;
+  color: white;
+}
+.a2:hover{
+  border: 5px solid red ;
+}
+.div2:hover{
+  border: 5px solid yellow;
+  padding: 0;
+}
+.a3:hover{
+  border: 5px solid green;
+  border-left: none;
+  border-right: none;
+}
+.a4:hover{
+  border: 5px solid blue;
+  border-top: none;
+  border-bottom: none;
+}
+.a5:hover{
+  background-image: radial-gradient(yellow,orange 25%,violet 50%,blue 80%,rgb(0, 225, 255) 90%);
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  animation: anime1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

@@ -1,0 +1,16 @@
+.table1{
+  border-spacing: 0px;
+  font-size: smaller;
+  border-collapse: collapse;
+}
+td{
+  border: 2px;
+  border-style: solid;
+}
+tr:first-child{
+  background-color: blueviolet;
+}
+td:first-child{
+  background-color: blue;
+}
+

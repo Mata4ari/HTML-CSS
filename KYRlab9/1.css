@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: 5vw 50vw 43vw;
+  grid-template-rows: 45vw;
+  grid-gap: 5px;
+  }
+  .grid3{
+    grid-row: 1/4;
+    font-size: 24px;
+  }
+  .grid2{
+    grid-row: 1/4;
+    font-size: 25px;
+  }
+  .grid1{
+    grid-row: 1/4;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+  }
+  div div{
+    border: 1px solid black;
+  }
+  
+ 
+  

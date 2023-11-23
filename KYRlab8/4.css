@@ -1,0 +1,80 @@
+ul{
+  list-style-type: none;
+}
+.menu_ul li{
+  float: left;
+}
+.menu_ul a{
+  display: inline-block;
+  height: 15px;
+  width: 200px;
+  margin-left: 20px;
+  border: 1px solid black;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: green;
+  background-color: yellow;
+}
+.a1:hover{
+  background-image: url("faculty/a1.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a1{
+  background-image: url("faculty/a1.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a2{
+  background-image: url("faculty/a1.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a3{
+  background-image: url("faculty/a1.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a4{
+  background-image: url("faculty/a1.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a3:hover{
+  background-image: url("faculty/a3.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a4:hover{
+  background-image: url("faculty/a4.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.a2:hover{
+  background-image: url("faculty/a2.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+nav ul{
+  position: absolute;
+  display: block;
+}
+nav ul {
+  display: none;
+}
+li:hover ul {
+  display:block;
+  width: 180px;
+}
+.menu_ul nav ul a{
+  margin-top: 0;
+  margin-left: -20px;
+  background-color: blue;
+  color: yellow;
+}
+
+

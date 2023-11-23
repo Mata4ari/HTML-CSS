@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<Ball>
+    <student>
+        <fio>Смирнов</fio>
+        <grade>10</grade>
+    </student>
+    <student>
+        <fio>Петров</fio>
+        <grade>9</grade>
+    </student>
+    <student>
+        <fio>Соболь</fio>
+        <grade>8</grade>
+    </student>
+    <student>
+        <fio>Мироненко</fio>
+        <grade>2</grade>
+    </student>
+    <student>
+        <fio>Синицин</fio>
+        <grade>3</grade>
+    </student>
+    <student>
+        <fio>Попов</fio>
+        <grade>7</grade>
+    </student>
+    <student>
+        <fio>Щерба</fio>
+        <grade>6</grade>
+    </student>
+    <student>
+        <fio>Блажевич</fio>
+        <grade>5</grade>
+    </student>
+    <student>
+        <fio>Скидан</fio>
+        <grade>4</grade>
+    </student>
+    <student>
+        <fio>Нарушевич</fio>
+        <grade>1</grade>
+    </student>
+</Ball>

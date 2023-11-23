@@ -1,0 +1,16 @@
+a{
+  width: 100px;
+  height: 20px;
+  background-color: yellow;
+  display: inline-block;
+}
+li{
+  list-style: none;
+}
+li li a{
+  margin-left: -40px;
+}
+nav>ul>li {position: relative;}
+nav ul {position:absolute;}
+li ul{display: none;}
+li:hover ul {display:block;}

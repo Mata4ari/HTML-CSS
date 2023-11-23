@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<Belarus>
+  <regions>
+    <region>Минск</region>
+  </regions>
+  <regions>
+    <region>Гомель</region>
+  </regions>
+  <regions>
+    <region>Гродно</region>
+  </regions>
+  <regions>
+    <region>Брест</region>
+  </regions>
+  <regions>
+    <region>Витебск</region>
+  </regions>
+  <regions>
+    <region>Могилев</region>
+  </regions>
+</Belarus>

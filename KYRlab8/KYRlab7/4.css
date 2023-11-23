@@ -1,0 +1,131 @@
+.div1{
+  animation: nameAnime1 ;
+  animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+display: inline-block;
+}
+.div2{
+  animation: nameAnime2 ;
+  animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+display: inline-block;
+}
+.div3{
+  animation: nameAnime3 ;
+  animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+display: inline-block;
+}
+.div4{
+  animation: nameAnime4 ;
+  animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+display: inline-block;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes nameAnime1{
+  from{
+    width: 50px;
+  height: 200px;
+  }
+  50%{
+    transform: translate(1000px);
+    width: 50px;
+  height: 200px;
+  }
+  to{
+    width: 200px;
+  height: 200px;
+  height: 200px;
+  transform: translateY(500px);
+  }
+}
+
+@keyframes nameAnime2{
+  from{
+    width: 50px;
+  height: 200px;
+  }
+  50%{
+    transform: translate(1000px);
+    width: 50px;
+  height: 200px;
+  }
+  to{
+    width: 200px;
+  height: 200px;
+  height: 200px;
+  transform: translateY(500px);
+  filter: blur(10px);
+  }
+}
+
+@keyframes nameAnime3{
+  from{
+    width: 50px;
+  height: 200px;
+  }
+  50%{
+    transform: translate(1000px);
+    width: 50px;
+  height: 200px;
+  }
+  to{
+    width: 200px;
+  height: 200px;
+  height: 200px;
+  transform: translateY(500px);
+  filter: grayscale(1);
+  }
+}
+
+@keyframes nameAnime4{
+  from{
+    width: 50px;
+  height: 200px;
+  }
+  50%{
+    transform: translate(1000px);
+    width: 50px;
+  height: 200px;
+  }
+  to{
+    width: 200px;
+  height: 200px;
+  height: 200px;
+  transform: translateY(500px);
+  filter: invert(1);
+  }
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  animation: anime1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+

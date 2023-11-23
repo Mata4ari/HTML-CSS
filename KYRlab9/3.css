@@ -1,0 +1,21 @@
+.grid {
+  display:grid;
+  grid-template-areas: "x y y" "x y1 z1" "x2 x2 x2";
+  width: 96vw;
+  height: 44vw;
+  grid-template-columns: 10% 70% 20%;
+  grid-template-rows: 20% 67% 10%;
+  grid-gap: 5px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  padding-top: 10px;
+  padding-left: 10px;
+  }
+  div div{
+    text-align: center;
+    background-color: rgb(24, 234, 24);
+  }
+  a{
+    display: inline-block;
+    margin-top: 120px;
+  }

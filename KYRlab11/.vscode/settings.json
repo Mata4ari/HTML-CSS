@@ -1,0 +1,15 @@
+{
+
+  "workbench.colorTheme": "Visual Studio Light",
+  "liveSassCompile.settings.formats":[
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css",
+      "savePathReplacementPairs": "~/../scss",
+    }
+  ],
+  "liveSassCompile.settings.generateMap":false,
+  "window.zoomLevel": 1
+
+}

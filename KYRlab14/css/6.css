@@ -1,0 +1,54 @@
+h1, h2, h3, h4, h5, h6 .a, #asd {
+  color: purple;
+  font-family: "Monotype Corsiva";
+}
+
+.list1 {
+  font-family: "Times New Roman";
+  font-size: 18pt;
+  color: red;
+}
+
+.list2 {
+  font-family: "Times New Roman";
+  font-size: 20pt;
+  color: yellow;
+}
+
+.list3 {
+  font-family: "Times New Roman";
+  font-size: 22pt;
+  color: green;
+}
+
+table {
+  border: 3px solid black;
+}
+
+svg {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+circle {
+  r: 45;
+  cy: 50;
+  cx: 50;
+}
+
+.ci1 {
+  fill: green;
+}
+
+.ci2 {
+  fill: yellow;
+}
+
+.ci3 {
+  fill: blue;
+}
+
+.ci4 {
+  fill: red;
+}
